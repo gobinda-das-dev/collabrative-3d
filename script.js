@@ -6,7 +6,7 @@ const $$ = (e) => document.querySelectorAll(e);
 
 
 
-// Under development
+// Under developmenttt
 const togglerBtn = $('.toggler');
 const tl = gsap.timeline({ defaults: {duration: 2, ease: "expo.inOut",}, paused: true });
 const w = gsap.getProperty('.can', 'width');
