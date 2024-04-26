@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./public/logo.png" type="image/x-icon">
+    <title>Collaborative 3D</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <main class="w-full h-screen overflow-hidden select-none">
+      <nav class="w-full fixed top-0 left-0 px-[4vw] py-[2vw] flex items-center justify-between">
+        <div class="title text-[32px] md:text-[24px] lg:text-[32px] font-medium">Tarragon</div>
+        <div class="middle flex items-center font-medium gap-[4vw] text-[16px] lg:text-[20.8px] max-md:hidden">
+          <a href="#">Products</a>
+          <a href="#">About</a>
+          <a href="#">Insights</a>
+        </div>
+        <div class="flex gap-[2vw] items-center">
+          <img class="w-[32px] md:w-[24px] lg:w-[32px] scale-[0.9] cursor-pointer" src="./public/search.svg"></img>
+          <img class="w-[32px] md:w-[24px] lg:w-[32px] cursor-pointer" src="./public/menu.svg"></img>
+        </div>
+      </nav>
+
+
+       <!-- Orange Section -->
+       <section class="fixed orange h-screen -z-[1] w-full bg-[#FFEFDA]">
+         <h1 class="absolute top-1/2 left-1/2 font-medium text-[18vw] max-sm:text-[20vw] text-[#FFD396] -translate-y-1/2 -translate-x-1/2">Orange</h1>
+         <div class="relative top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+           <img class="can w-[240px] mx-auto object-cover" src="./public/can.png"></img>
+           
+            <div class="clippy mix-blend-multiply w-[240px] h-full absolute top-0 left-1/2 -translate-x-1/2 flex justify-center">
+              <div class="w-screen min-w-[1008px] flex-shrink-0 h-full flex justify-center">
+                <img class="h-full" src="./public/Contents.png" alt="">
+                <img class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-[240px]" src="./public/orange/model.png" alt="">
+
+                <div class="disc absolute top-0 left-1/2 -translate-x-1/2 text-center pt-[32px] pb-[64px] h-full w-[240px] flex flex-col justify-between">
+                  <div class="space-y-[24px]">
+                    <p class="text-[.5rem] font-semibold">enjoy a refreshing drink</p>
+                    <h1 class="text-[32px] font-medium">Tarragon</h1>
+                  </div>
+                  <div>
+                    <h1 class="text-[32px] font-medium">Orange</h1>
+                    <p class="text-[.5rem] font-semibold">Best way to enjoy fruit juice</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img src="./public/orange/img1.png" class="absolute -top-[15%] left-0 sm:left-[15%] md:left-[20%] lg:left-[28%] w-[144px]" alt="">
+            <img src="./public/orange/img2.png" class="absolute -bottom-[80px] md:-bottom-[112px] left-[0px] md:left-[96px] lg:left-[192px] xl:left-[320px] w-[192px] md:w-[272px]" alt="">
+            <img src="./public/orange/img3.png" class="absolute top-[10%] left-[58%] w-[160px] md:w-[264px]" alt="">
+         </div>
+       </section>
+
+       
+       <!-- Pine Section -->
+      <section class="fixed pineapple h-screen -z-[2] w-full bg-[#E4FFC0]">
+        <h1 class="absolute top-1/2 left-1/2 font-medium text-[18vw] max-sm:text-[20vw] text-[#B7EC73] -translate-y-1/2 -translate-x-1/2">Pineapple</h1>
+        <div class="relative top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+          <img class="can w-[240px] mx-auto object-cover" src="./public/can.png"></img>
+
+           <div class="clippy mix-blend-multiply w-[240px] h-full absolute top-0 left-1/2 -translate-x-1/2 flex justify-center">
+             <div class="w-screen min-w-[1008px] flex-shrink-0 h-full flex justify-center">
+               <img class="h-full" src="./public/Contents.png" alt="">
+               <img class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-[208px]" src="./public/pineapple/model.png" alt="">
+
+               <div class="disc absolute top-0 left-1/2 -translate-x-1/2 text-center pt-[32px] pb-[64px] h-full w-[240px] flex flex-col justify-between">
+                 <div class="space-y-[24px]">
+                   <p class="text-[.5rem] font-semibold">enjoy a refreshing drink</p>
+                   <h1 class="text-[32px] font-medium">Tarragon</h1>
+                 </div>
+                 <div>
+                   <h1 class="text-[32px] font-medium">Pineapple</h1>
+                   <p class="text-[.5rem] font-semibold">Best way to enjoy fruit juice</p>
+                 </div>
+               </div>
+             </div>
+           </div>
+           <img src="./public/pineapple/img1.png" class="absolute bottom-[10%] right-[5%] sm:right-[25%] md:right-[30%] lg:right-[35%] w-[96px]" alt="">
+           <img src="./public/pineapple/img2.png" class="absolute -bottom-[0%] -left-[25%] sm:left-[7%] md:left-[15%] lg:left-[23%] xl:left-[28%] w-[288px]" alt="">
+           <img src="./public/pineapple/img3.png" class="absolute -top-[7%] -right-[35%] sm:right-[0%] md:right-[12%] lg:right-[18%] xl:right-[24%] w-[320px]" alt="">
+        </div>
+      </section>
+        
+      <button class="toggler absolute bottom-[10%] left-1/2 -translate-x-1/2 rounded-full px-5 py-1.5 border-2 border-black font-medium">Click to Slide</button>
+    </main>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
